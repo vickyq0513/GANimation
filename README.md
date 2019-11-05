@@ -18,7 +18,7 @@ An example of this directory is shown in `sample_dataset/`.
 
 
 ## Reference
-If you use this code or ideas from the paper for your research, please cite our paper:
+- original author
 ```
 @article{Pumarola_ijcv2019,
     title={GANimation: One-Shot Anatomically Consistent Facial Animation},
