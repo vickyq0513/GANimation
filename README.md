@@ -14,7 +14,7 @@ The code requires a directory containing the following files:
 An example of this directory is shown in `sample_dataset/`.
 
 ## Run
-.vscode/launch.json
+vscode/launch.json
 
 
 ## Reference
