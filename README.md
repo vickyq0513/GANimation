@@ -1,6 +1,5 @@
 # Ganimation
-# Trying to replicate and fine tune original paper:
-### [[Project]](http://www.albertpumarola.com/research/GANimation/index.html)[ [Paper]](https://rdcu.be/bPuaJ) 
+# Trying to replicate and fine tune original paper: [ [Paper]](https://rdcu.be/bPuaJ) 
 
 ## Prerequisites
 - Install PyTorch (version 0.3.1), Torch Vision and dependencies from http://pytorch.org
