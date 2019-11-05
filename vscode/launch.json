@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	
+	// launch training set:
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--data_dir", "./sample_dataset/", "--name", "experiment_1", 
+            "--batch_size", "16", "--n_threads_train", "4",
+            "--image_size", "128", "--cond_nc", "8"],
+            "justMyCode": false
+        }
+    ]
+}
+
+
+// training set:
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--input_path", "./sample_dataset/imgs/76356535-0ceb-4619-a05c-0cd8e80952db0001.jpg", 
+					 "--batch_size", "16",
+					 "--cond_nc", "8"]
+        }
+    ]
+}
+
